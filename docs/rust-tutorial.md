@@ -1,3 +1,7 @@
+# Setting up a dev container for <Insert: Go or Rust depending on which you are doing>
+
+* Primary author: [Brian Bordeaux](https://github.com/bbounc)
+
 # Rust Tutorial for COMP423
 
 Welcome to the Rust tutorial! In this guide, you'll learn how to set up a Rust development environment using a Dev Container, create a simple "Hello COMP423" program, and run it.
