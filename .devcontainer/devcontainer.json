@@ -1,12 +1,11 @@
 {
   "name": "COMP423 Course Notes",
-  "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "image": "mcr.microsoft.com/devcontainers/python:latest",
   "customizations": {
     "vscode": {
       "settings": {},
-      "extensions": [
-        "rust-lang.rust-analyzer"  // Official Rust analyzer extension
-      ]
+      "extensions": ["ms-python.python"]
     }
-  }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
 }
