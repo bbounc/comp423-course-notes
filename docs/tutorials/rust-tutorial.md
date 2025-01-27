@@ -80,9 +80,13 @@ Now open the hello_comp423 directory then open the src directory, finally open t
     println!("Hello COMP423");
 }**
 
-Now run cargo build in your terminal this will compile your project and make the exectuable target/debug directory.
+Now run cargo build <name for file your creating>in your terminal this will compile your project and make the exectuable target/debug directory.
 
-Finally to run the program you will do cargo run in the terminal where you should see the output Hello COMP423.
+Finally to run the program you will do cargo run <name of file you created>in the terminal where you should see the output Hello COMP423.
 
 The diffrence between cargo build and cargo run is that cargo build puts the files together in a way that your machine can actually execuate them while cargo run actually executes the files which causes the program to run.
 
+Now that the program is ran do:
+**git add .**
+** git commit -m <your commit message>**
+** git push -u origin**
